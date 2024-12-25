@@ -21,7 +21,8 @@ const links = [{
 <template>
   <UHeader :links="links">
     <template #logo>
-      OCI Auth <UBadge label="Home" variant="subtle" class="mb-0.5" />
+      OCI Auth
+      <UAvatar src="logo-vue.png" size="sm"/>
     </template>
 
     <template #right>
